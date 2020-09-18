@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 66b92f100d96153c2962d5ff47bcd799
+guid: 4a19c0cfaaa591f37a991442f024707c
 PluginImporter:
   externalObjects: {}
   serializedVersion: 2
@@ -12,7 +12,7 @@ PluginImporter:
   validateReferences: 1
   platformData:
   - first:
-      '': Any
+      : Any
     second:
       enabled: 0
       settings:
@@ -22,9 +22,10 @@ PluginImporter:
         Exclude Linux64: 1
         Exclude LinuxUniversal: 1
         Exclude OSXUniversal: 1
-        Exclude WebGL: 0
+        Exclude WebGL: 1
         Exclude Win: 1
         Exclude Win64: 1
+        Exclude iOS: 1
   - first:
       Android: Android
     second:
@@ -92,7 +93,7 @@ PluginImporter:
   - first:
       WebGL: WebGL
     second:
-      enabled: 1
+      enabled: 0
       settings: {}
   - first:
       Windows Store Apps: WindowsStoreApps
